@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic manager</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/homeMobile.css" media="(max-width: 950px)">
+    <link rel="stylesheet" href="css/commonMobile.css" media="(max-width: 850px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.png">
+</head>
+
+<body>
+
+    <script defer src="script.js"></script>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="
+    if (submitted) {window.location='thankPage.html'}"></iframe>
+
+    <header class="header">
+        <div class="header__inner inner flex">
+            <div class="mobile__wrapper flex">
+                <a href="/" class="flex logo_wrapper">
+                    <img src="./images/logo.svg" class="logo__img" alt="remote employees">
+                    <div class="logo__text">
+                        <div class="logo__text--main">RemoteEmployees</div>
+                        <div class="logo__text--sub">The outstaffing company</div>
+                    </div>
+                </a>
+                <button class="menu-icon" aria-label="menu">
+                    <span class="menu-icon-block"></span>
+                    <span class="menu-icon-block"></span>
+                    <span class="menu-icon-block"></span>
+                </button>
+            </div>
+            <div class="navigation__wrapper flex">
+                <nav class="navigation">
+                    <ul class="navigation_list flex">
+                        <li class="navigation_item">
+                            <a href="#howTraffic" class="navigation_link">О вакансии</a>
+                        </li>
+                        <li class="navigation_item">
+                            <a href="#offer" class="navigation_link">Обязанности</a>
+                        </li>
+                        <li class="navigation_item">
+                            <a href="#requirements" class="navigation_link">Требования</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-link_wrapper flex">
+                    <a href="https://fb.com/remotemployees" class="social-link facebook">
+                        <img src="./images/fb.svg" alt="facebook icon">
+                    </a>
+                    <a href="https://www.instagram.com/remotemployees/" class="social-link instargam">
+                        <img src="./images/insta.svg" alt="instargam icon">
+                    </a>
+                    <a href="https://t.me/remotemployees" class="social-link telegram">
+                        <img src="./images/tg.svg" alt="telegram icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <article class="banner">
+            <div class="banner__inner inner">
+                <h1 class="banner__title title">профессия будущего — Traffic manager</h1>
+                <object data="images/boy.svg" type="image/svg+xml" class="banner__img image">Working boy</object>
+                <p class="banner__description description">
+                    В компанию Remote Employees для удалённой работы нужен трафик менеджер со знанием английского
+                    языка
+                </p>
+                <a href="#contact" class="button">откликнуться</a>
+            </div>
+        </article>
+        <section class="aboutUs">
+            <div class="aboutUs__inner inner flex">
+                <h2 class="aboutUs__title title"><span class="pink">Что мы</span> за компания?</h2>
+                <object data="images/ai.svg" type="image/svg+xml" class="aboutUs__img image">Artificial intelligence</object>
+                <p class="aboutUs__description description">
+                    RemotEmployees — это аутстаффинговая компания, которая предоставляет рабочие места в Украине
+                    ориентируясь на Европейский и Американский рынок.<br>
+                    Сотрудничество с нами позволит вам приобрести новые умения в сфере IT и маркетинга, а также
+                    развить
+                    навыки общения с иностранными носителями языка.
+                </p>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="advantages__inner inner">
+                <h2 class="advantages__title title"><span class="pink">Преимуще&shy;ства</span> сотрудниче&shy;ства с нами</h2>
+                <ul class="advantages__list flex">
+                    <li class="advantages__item">
+                        <p class="advantages__number title">01</p>
+                        <p class="advantages__item-title title">Без опыта работы</p>
+                        <p class="advantages__description description">Мы с радостью рассмотрим кандидатов даже без
+                            опыта работы</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__number title">02</p>
+                        <p class="advantages__item-title title">Удаленная работа</p>
+                        <p class="advantages__description description">Работай из любой точки мира! Для работы нужно
+                            только запустить компьютер</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__number title">03</p>
+                        <p class="advantages__item-title title">Стабильная оплата</p>
+                        <p class="advantages__description description">Мы гарантируем своевременную оплату дважды в
+                            месяц</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__number title">04</p>
+                        <p class="advantages__item-title title">Гибкий график</p>
+                        <p class="advantages__description description">Мы предлагаем гибкий график. Как дневные, так
+                            и вечерние смены</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="howTraffic" id="howTraffic">
+            <div class="howTraffic__inner inner">
+                <h2 class="howTraffic__title title"><span class="pink">Кто такой</span> трафик менеджер?</h2>
+                <object data="./images/girl.svg" type="image/svg+xml" class="howTraffic__img image">Working girl</object>
+                <div class="howTraffic__description-wrapper description">
+                    <p>
+                        Профессия трафик менеджер — молодая, но стремительно набирающая популярность. Это связано с
+                        ростом доли продвижения продуктов
+                        через интернет.
+                    </p>
+                    <p>
+                        Трафик менеджер — это менеджер по рекламе, человек, который отвечает за размещение рекламы и
+                        всего, что касается этой рекламы.
+                    </p>
+                    <p>
+                        Мы — люди, не знающие специфику этой профессии, — видим только "верхушку айсберга", а трафик
+                        специалисты со своей командой делают большое количество работы, чтобы эта "верхушку
+                        айсберга" нам понравилась. Более того, не просто понравилась, а мы захотели купить продукт,
+                        который
+                        рекламирует, или оставили свою электронную почту и номер телефона.
+                    </p>
+                </div>
+        </section>
+        <section class="requirements" id="requirements">
+            <div class="requirements__inner inner">
+                <h2 class="requirements title"><span class="pink">Вы</span> нам <span class="pink">идеально
+                        подходите</span>, если вы:</h2>
+                <ul class="requirements_items--list">
+                    <li class="requirements_item flex">
+                        <object data="./images/lamp.svg" type="image/svg+xml" class="requirements__img">lamp</object>
+                        <p class="requirements__description description">умеете работать с рекламными кабинетами, Google
+                            Ads, Facebook и др.</p>
+                    </li>
+                    <li class="requirements_item flex">
+                        <object data="./images/lamp.svg" type="image/svg+xml" class="requirements__img">lamp</object>
+                        <p class="requirements__description description">умеете создавать рекламные кампании</p>
+                    </li>
+                    <li class="requirements_item flex">
+                        <object data="./images/lamp.svg" class="requirements__img">lamp</object>
+                        <p class="requirements__description description">умеете проводить аналитику всех рекламных
+                            кампаний</p>
+                    </li>
+                    <li class="requirements_item flex">
+                        <object data="./images/lamp.svg" type="image/svg+xml" class="requirements__img">lamp</object>
+                        <p class="requirements__description description">умеете работать с другими членами команды:
+                            дизайнерами копирайтерами</p>
+                    </li>
+                    <li class="requirements_item flex">
+                        <object data="./images/lamp.svg" type="image/svg+xml" class="requirements__img">lamp</object>
+                        <p class="requirements__description description">умеете проводит A / Б-тестирования кампаний и
+                            выбирать лучшую из них</p>
+                    </li>
+                    <li class="requirements_item flex">
+                        <object data="./images/lamp.svg" type="image/svg+xml" class="requirements__img">lamp</object>
+                        <p class="requirements__description description"> умеете работать с бюджетами и проводить
+                            отчётность</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="offer" id="offer">
+            <div class="offer__inner inner flex">
+                <h2 class="offer__title title pink">Кому подходит вакансия?</h2>
+                <object data="./images/ai_2.svg" type="image/svg+xml" class="offer__img image">Artificial intelligence</object>
+                <p class="offer__description description">
+                    Да, очень много задач выполняет именно трафик менеджер, но они все связаны в одно
+                    целое.Специалист по трафику не только занимается привлечением новых клиентов, но и анализирует
+                    результаты собственной работы.Это необходимо для того, чтобы находить наиболее удачные и
+                    выгодные способы привлечения.<br>
+                    Если вы любите цифры и работать с ними, а еще у вас есть частичка креатива, тогда вам к нам.
+                    От начала и до реализации вашей первой рекламы мы всему обучим.
+                </p>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__inner inner">
+                <h2 class="contact__title title">Откликнуться на вакансию</h2>
+                <p class="contact__description description">
+                    Начни обучаться новой профессии вместе с нами уже сегодня!
+                </p>
+                <object data="./images/girl_2.svg" type="image/svg+xml" class="contact__img image">Working girl</object>
+                <form role="form" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfQ9zWVHSLwSpvW8LMutJaONLPdNGCgyj85K3Ivo11Ch2ShRQ/formResponse" class="contact__form flex" id="feedback" method="POST"
+                    target="hidden_iframe" onsubmit="submitted=true;">
+                    <input type="text" class="contact__input contact__input--name" placeholder="Ф. И. О." name="entry.1722605065"
+                        required id="name" aria-label="name" pattern="^[A-zА-я\s]+(([',. -][A-zА-я\s])?[A-zА-я\s]*)*$"
+                        oninvalid="setCustomValidity('Enter only english or russian letters ')" oninput="setCustomValidity('')">
+                    <input type="text" class="contact__input contact__input--socialNetwork" placeholder="Telegram/Viber"
+                        name="entry.730893694" id="socialNetwork" aria-label="Social network address">
+                    <input type="tel" required class="contact__input contact__input--email" placeholder="+38" name="entry.1719845057"
+                        id="tel" aria-label="Phone" pattern="(\+)?[0-9]{0,3}[0-9]{3}[0-9]{3}[0-9]{4}"
+                        oninvalid="setCustomValidity('Enter phone only numbers without () or - ')"
+                        oninput="setCustomValidity('')">
+
+                    <input type="submit" value="откликнуться" class="contact_button button" aria-label="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner inner flex">
+            <a href="/" class="flex logo_wrapper">
+                <img src="/images/logo.svg" class="logo__img" alt="remote employees">
+                <div class="logo__text">
+                    <div class="logo__text--main">RemoteEmployees</div>
+                    <div class="logo__text--sub">The outstaffing company</div>
+                </div>
+            </a>
+            <ul class="footer_contact">
+                <li class="footer_contact__inner">
+                    <a href="viber://chat/?number=%2B380666146404" target="_blank" aria-label="viber chat"
+                        class="footer_contact__link flex">
+                        <img src="./images/viber.svg" alt="Viber contact" class="footer_contact--img">
+                        <span class="footer_contact--name">Валерия: +380666146404</span>
+                    </a>
+                </li>
+                <li class="footer_contact__inner">
+                    <a href="viber://chat/?number=%2B380960933838" target="_blank" aria-label="viber chat"
+                        class="footer_contact__link flex">
+                        <img src="./images/viber.svg" alt="Viber contact" class="footer_contact--img">
+                        <span class="footer_contact--name">Анна: +380960933838</span>
+                    </a>
+                </li>
+                <li class="footer_contact__inner">
+                    <a href="viber://chat/?number=%2B380994160329" target="_blank" aria-label="viber chat"
+                        class="footer_contact__link flex">
+                        <img src="./images/viber.svg" alt="Viber contact" class="footer_contact--img">
+                        <span class="footer_contact--name">Виталина: +380994160329</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="footer_info">
+                <div class="social-link_wrapper flex">
+                    <a href="https://www.instagram.com/remotemployees/" aria-label="instagram"
+                        class="social-link instargam">
+                        <img src="./images/insta.svg" alt="instargam icon">
+                    </a>
+                    <a href="https://fb.com/remotemployees" aria-label="facebook" class="social-link facebook">
+                        <img src="./images/fb.svg" alt="facebook icon">
+                    </a>
+                    <a href="viber://chat/?number=%2B380666146404" aria-label="viber chat" class="social-link viber">
+                        <img src="./images/viber.svg" alt="viber icon">
+                    </a>
+                    <a href="https://t.me/remotemployees" aria-label="telegram chat" class="social-link telegram">
+                        <img src="./images/tg.svg" alt="telegram icon">
+                    </a>
+                    <a href="https://wa.me/380666146404" aria-label="whatsApp chat" class="social-link whatsapp">
+                        <img src="./images/whatsapp.svg" alt="whats app icon">
+                    </a>
+                </div>
+                <address class="address">
+                    <a href="mailto:hr@remotemployees.com" class="footer_info--email" aria-label="email"
+                        target="_blank">hr@remotemployees.com</a>
+                    <a href="https://goo.gl/maps/biE6A3f6tXTkRxLs6" class="footer_info--address"
+                        aria-label="googlemap office location" target="_blank" rel="noopener">
+                        ул. Рымарская 22, Харьков, Украина
+                    </a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
